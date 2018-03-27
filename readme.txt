@@ -1,7 +1,9 @@
+I am using the below template and have customized it for a countdown website. I have not yet fully cleaned out 
+the unnecessary parts for me but it works. Thanks to the creators and all of unnamed people who helped me when their answers popped up in my google searches.
 
 ==================================================================================================
 
-ADVENT is a clean, modern and well-crafted coming soon HTML5 template. It’s the perfect template 
+ADVENT is a clean, modern and well-crafted coming soon HTML5 template. Itâ€™s the perfect template 
 to keep your visitors informed about the official website launch. The template features a 
 countdown timer, a google map section, an about section where you can add information about 
 your website and a mailchimp ready ajax subscription form. The template is very customizable 

@@ -1032,7 +1032,7 @@ select:focus { outline: none; border: none; }
 .countdown-box.countdown-header .extra-line { position: absolute; top: 50%; left: calc(50% + 15px); content: ""; height: 565px; width: 575px; transform: translate(-50%, -50%); border: 1px solid rgba(122, 15, 255, 0.1); border-radius: 50%; }
 .countdown-box.countdown-header .extra-line:after { position: absolute; top: 50%; left: calc(50% + 25px); content: ""; height: 565px; width: 575px; transform: translate(-50%, -50%); border: 1px solid rgba(122, 15, 255, 0.1); border-radius: 50%; }
 
-.theme-light .countdown-box .token-countdown .countdown-time:after { color: #6e7e98; }
+.theme-light .countdown-box .token-countdown .countdown-time:after { color: #fefeff; }
 .theme-light .section-bg .countdown-box { background: #fff; }
 .theme-light .section-bg-alt .countdown-box { background: #eff6ff; }
 

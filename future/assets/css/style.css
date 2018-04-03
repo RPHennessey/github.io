@@ -116,7 +116,7 @@ a:hover, a:focus, a:active { outline: 0; color: #8255fd; }
 .io-azure .section-bg-alt { background: #1b30a4; }
 
 .section-bg-dark { background: #08091b; }
-.theme-light .section-bg-dark { background: #e5f0ff; }
+.theme-light .section-bg-dark { background: #2c3539; }
 .io-azure .section-bg-dark { background: #15257b; }
 
 .section-bg-blend { background-image: linear-gradient(to bottom, #0c0f2a 0%, #0b0c22 70%); }
@@ -1034,7 +1034,7 @@ select:focus { outline: none; border: none; }
 
 .theme-light .countdown-box .token-countdown .countdown-time:after { color: #fefeff; }
 .theme-light .section-bg .countdown-box { background: #fff; }
-.theme-light .section-bg-alt .countdown-box { background: #eff6ff; }
+.theme-light .section-bg-alt .countdown-box { background: #2c3539; }
 
 /* @v1.1.0 s */
 @media only screen and (max-width: 1024px) and (max-width: 1199px) { .countdown-box .token-countdown .countdown-time { font-size: 35px; font-weight: 300; } }

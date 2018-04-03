@@ -31,9 +31,9 @@ a:hover, a:focus, a:active { color: #8255fd; }
 
 .bg-secondary { background: #7a0fff; }
 
-.bg-light-primary { background-color: rgba(70, 189, 244, 0.1); }
+.bg-light-primary { background-color: rgba(44, 53, 57, 0.1); }
 
-.bg-light-secondary { background-color: rgba(122, 15, 255, 0.1); }
+.bg-light-secondary { background-color: rgba(44, 53, 57, 0.1); }
 
 .tab-custom .nav-tabs { border-bottom-color: rgba(122, 15, 255, 0.2); }
 .tab-custom .nav-tabs li > a:hover { color: #46bdf4; }

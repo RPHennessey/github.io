@@ -1032,7 +1032,8 @@ select:focus { outline: none; border: none; }
 .countdown-box.countdown-header .extra-line { position: absolute; top: 50%; left: calc(50% + 15px); content: ""; height: 565px; width: 575px; transform: translate(-50%, -50%); border: 1px solid rgba(122, 15, 255, 0.1); border-radius: 50%; }
 .countdown-box.countdown-header .extra-line:after { position: absolute; top: 50%; left: calc(50% + 25px); content: ""; height: 565px; width: 575px; transform: translate(-50%, -50%); border: 1px solid rgba(122, 15, 255, 0.1); border-radius: 50%; }
 
-.theme-light .countdown-box .token-countdown .countdown-time:after { color: #fefeff; }
+.theme-light .countdown-box .token-countdown .countdown-time { color: #fefeff; }
+/*.theme-light .countdown-box .token-countdown .countdown-time:after { color: #fefeff; }*/
 .theme-light .section-bg .countdown-box { background: #fff; }
 .theme-light .section-bg-alt .countdown-box { background: #2c3539; }
 
@@ -1677,5 +1678,18 @@ select:focus { outline: none; border: none; }
 .io-azure .section-pro .search-form input[type="text"] { color: #373e45; border-color: #eff6ff; }
 .io-azure .section-pro .search-form button { background: #eff6ff; color: #373e45; }
 .io-azure .section-pro .search-form button:hover { background: rgba(70, 189, 244, 0.8); color: #fff; }
+
+
+/** grid auto setup **/
+
+.theme-light #grid-for-teams {
+  display: grid;
+  box-sizing: border-box;
+
+  grid-template-columns: repeat( auto-fit, minmax(auto, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 10px;
+
+}
 
 /** END */

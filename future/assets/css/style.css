@@ -116,7 +116,7 @@ a:hover, a:focus, a:active { outline: 0; color: #8255fd; }
 .io-azure .section-bg-alt { background: #1b30a4; }
 
 .section-bg-dark { background: #08091b; }
-.theme-light .section-bg-dark { background: #2c3539; }
+.theme-light .section-bg-dark { background: #1b1b1b; }
 .io-azure .section-bg-dark { background: #15257b; }
 
 .section-bg-blend { background-image: linear-gradient(to bottom, #0c0f2a 0%, #0b0c22 70%); }
@@ -1330,7 +1330,7 @@ select:focus { outline: none; border: none; }
 .social li a:hover { background: #7a0fff; color: #fff; }
 
 .subscribe-section { background: url(../images/footer-bg.png) no-repeat 50% 0%/contain, #10122d; }
-.theme-light .subscribe-section { background: url(../images/footer-bg.png) no-repeat 50% 0%/contain, #2c3539; }
+.theme-light .subscribe-section { background: url(../images/footer-bg.png) no-repeat 50% 0%/contain, #1b1b1b; }
 
 .copyright-text { font-size: 13px; display: block; margin-top: 40px; }
 .copyright-text span { display: block; color: #8284a5; }

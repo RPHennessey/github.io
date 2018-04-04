@@ -1156,7 +1156,7 @@ select:focus { outline: none; border: none; }
 
 .theme-light .team-member .team-social li a:hover { color: #3c3c3c; }
 .theme-light .section-bg .team-member { background: #fff; }
-.theme-light .section-bg-alt .team-member { background: #eff6ff; }
+.theme-light .section-bg-alt .team-member { background: #2c3539; }
 
 .team-hex { margin-bottom: 30px; }
 .team-hex .team-photo { width: 160px; }

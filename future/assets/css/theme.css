@@ -94,7 +94,7 @@ a:hover, a:focus, a:active { color: #8255fd; }
 
 .event-info:before { background: #46bdf4; }
 
-.countdown-box .token-countdown .countdown-text { color: #fe; }
+.countdown-box .token-countdown .countdown-text { color: #fefeff; }
 .countdown-box.countdown-header:after { border-color: rgba(122, 15, 255, 0.1); }
 .countdown-box.countdown-header:before { border-color: rgba(122, 15, 255, 0.1); }
 .countdown-box.countdown-header .extra-line { border-color: rgba(122, 15, 255, 0.1); }

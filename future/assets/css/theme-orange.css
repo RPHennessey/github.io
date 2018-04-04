@@ -65,7 +65,7 @@ a:hover, a:focus, a:active { color: #de6288; }
 .btn:before { background-image: -webkit-linear-gradient(left, #ffa93d 0%, #ff6d3e 100%); background-image: linear-gradient(to right, #ffa93d 0%, #ff6d3e 100%); }
 .btn.btn-alt { background-image: -webkit-linear-gradient(left, #f3618e 0%, #ffa93d 100%); background-image: linear-gradient(to right, #f3618e 0%, #ffa93d 100%); }
 .btn.btn-alt:before { background-image: -webkit-linear-gradient(left, #ffa93d 0%, #f3618e 100%); background-image: linear-gradient(to right, #ffa93d 0%, #f3618e 100%); }
-.btn.btn-plane { background: #f3618e; }
+.btn.btn-plane { background: #ff7d00; }
 .btn.btn-simple .fa { color: #ffa93d; }
 .btn.btn-more { color: #ffa93d; }
 .btn.btn-more:hover { color: #f3618e; }

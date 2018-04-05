@@ -34,7 +34,7 @@ Updated	 :	03.20.2018
 body { font-family: "Poppins", sans-serif; color: #3c3c3c; font-size: 15px; line-height: 1.86; font-weight: 300; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; position: relative; }
 
 body { color: #fff; background: #10122d; }
-body.theme-light { color: #28384c; background: #fff; }
+body.theme-light { color: #aaaeaf; background: #fff; }
 body.io-azure { background: #0d42b2; }
 body.io-azure .section-pro, body.io-azure .section-pro-alt { color: #313c56; }
 
@@ -751,7 +751,7 @@ select:focus { outline: none; border: none; }
   40% { transform: translateX(4px); }
   60% { transform: translateX(6px); } }
 .theme-light .site-header .navbar-nav > li:hover a { color: #46bdf4; }
-.theme-light .site-header .navbar-nav > li > a { color: #28384c; }
+.theme-light .site-header .navbar-nav > li > a { color: #fefeff; }
 .theme-light .site-header .navbar.is-transparent .navbar-brand .logo-dark { display: block; }
 .theme-light .site-header .navbar.is-transparent .navbar-brand .logo-light { display: none; }
 .theme-light .site-header.has-fixed .navbar { background: #1b1b1b; border-bottom-color: rgba(0, 0, 0, 0.04); }
@@ -825,14 +825,14 @@ select:focus { outline: none; border: none; }
   .header-image-element-2 { left: 53%; bottom: 30%; } }
 @media only screen and (max-width: 991px) { .site-header .navbar-brand { margin-left: 15px; }
   .site-header .navbar.is-transparent.active { background: #0b0c22; }
-  .theme-light .site-header .navbar.is-transparent.active { background: #eff6ff; }
+  .theme-light .site-header .navbar.is-transparent.active { background: rgba(27,27,27,1);}
   .site-header .navbar-btns { margin: 0 20px 30px; padding-top: 10px; display: inline-block; }
   .site-header .navbar-btns li { display: inline-block; }
   .partner-list-s2 { padding-right: 60px; }
   .site-header .scroll-down { bottom: 80px; right: 0; }
   .navbar-collapse { position: relative; }
   .navbar-collapse:after { opacity: 0; content: ""; position: absolute; left: 0; right: 0; height: 220px; bottom: 0; z-index: -1; background-image: linear-gradient(to bottom, #0b0c22 0%, #1b1e4b 100%); transition: all .4s; }
-  .theme-light .navbar-collapse:after { background-image: linear-gradient(to bottom, #eff6ff 0%, #d6e8ff 100%); }
+  .theme-light .navbar-collapse:after { background-image: linear-gradient(to bottom, #1b1b1b 0%, #2c3539 100%); }
   .navbar-collapse.show:after { opacity: 1; }
   .navbar .navbar-nav li:hover { opacity: 1; }
   .navbar .navbar-nav li a.nav-link { padding: 0 5px; }

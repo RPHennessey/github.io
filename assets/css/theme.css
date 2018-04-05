@@ -31,9 +31,9 @@ a:hover, a:focus, a:active { color: #8255fd; }
 
 .bg-secondary { background: #7a0fff; }
 
-.bg-light-primary { background-color: rgba(70, 189, 244, 0.1); }
+.bg-light-primary { background-color: rgba(44, 53, 57, 0.1); }
 
-.bg-light-secondary { background-color: rgba(122, 15, 255, 0.1); }
+.bg-light-secondary { background-color: rgba(44, 53, 57, 0.1); }
 
 .tab-custom .nav-tabs { border-bottom-color: rgba(122, 15, 255, 0.2); }
 .tab-custom .nav-tabs li > a:hover { color: #46bdf4; }
@@ -94,7 +94,7 @@ a:hover, a:focus, a:active { color: #8255fd; }
 
 .event-info:before { background: #46bdf4; }
 
-.countdown-box .token-countdown .countdown-text { color: #46bdf4; }
+.countdown-box .token-countdown .countdown-text { color: #fefeff; }
 .countdown-box.countdown-header:after { border-color: rgba(122, 15, 255, 0.1); }
 .countdown-box.countdown-header:before { border-color: rgba(122, 15, 255, 0.1); }
 .countdown-box.countdown-header .extra-line { border-color: rgba(122, 15, 255, 0.1); }
@@ -131,11 +131,11 @@ a:hover, a:focus, a:active { color: #8255fd; }
 .single-roadmap-alt.pri-last:before { background-image: linear-gradient(to left, transparent 0%, #46bdf4 50%, #46bdf4 100%); }
 .single-roadmap-alt h5:before, .single-roadmap-alt h6:before { background: #7a0fff; }
 
-.team-member .team-photo:after { background-image: -webkit- linear-gradient(to right, #2b56f5 0%, #46bdf4 100%); background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%); }
+.team-member .team-photo:after { background-image: -webkit- linear-gradient(to right, #a3a3a3 0%, #ffffff 100%); background-image: linear-gradient(to right, #2b56f5 0%, #ffffff 100%); }
 .team-member .team-title { color: #46bdf4; }
 .team-member .team-social li a { color: #8255fd; }
 
-.team-hex .team-info:before { background-image: -webkit- linear-gradient(to right, #2b56f5 0%, #46bdf4 100%); background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%); }
+.team-hex .team-info:before { background-image: -webkit- linear-gradient(to right, #a3a3a3 0%, #46bdf4 100%); background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%); }
 .team-hex .team-title { color: #8255fd; }
 
 .team-described .team-title:after { background-image: -webkit- linear-gradient(to right, #2b56f5 0%, #46bdf4 100%); background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%); }

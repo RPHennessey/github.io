@@ -1154,9 +1154,11 @@ select:focus { outline: none; border: none; }
 .team-member .team-social li a:hover { color: #fff; }
 .team-member .team-social li a .fa { font-size: 16px; }
 
-.theme-light .team-member .team-social li a:hover { color: #3c3c3c; }
+.theme-light .team-member .team-social li a:hover { color: #ff7d00; }
+.theme-light .team-member .team-social li a { color: #3c3c3c; }
+.theme-light .team-member .team-title { color: #fefeff;}
 .theme-light .section-bg .team-member { background: #fff; }
-.theme-light .section-bg-alt .team-member { background: #2c3539; }
+.theme-light .section-bg-alt .team-member { background: rgba(44,53,57,.5); }
 
 .team-hex { margin-bottom: 30px; }
 .team-hex .team-photo { width: 160px; }
@@ -1320,7 +1322,7 @@ select:focus { outline: none; border: none; }
 .subscribe-results { position: absolute; left: 0; width: 100%; top: calc(100% + 15px); }
 
 .theme-light .section-bg .inline-form .input-round { color: #3c3c3c; background: #fff; border-color: #fff; }
-.theme-light .section-bg-alt .inline-form .input-round { color: #3c3c3c; background: #1b1b1b; border-color: #eff6ff; }
+.theme-light .section-bg-alt .inline-form .input-round { color: #3c3c3c; background: #fefeff; border-color: #eff6ff; }
 
 @media only screen and (max-width: 1199px) { .inline-form { margin: 0; }
   .inline-form .input-round { text-align: center; }

@@ -328,6 +328,7 @@ hr:last-child, .hr:last-child { margin-bottom: 0; }
 .image.circle:not([class*="al-"]) { text-align: center; }
 .image.circle:not(.image-md) img { width: 100%; max-width: 555px; }
 .image-md img { width: 90%; max-width: 220px; }
+.grid-for-profile img { width: inherit; max-width: 200px;}
 
 .gaps { clear: both; height: 20px; display: block; margin: 0; }
 .gaps.size-lg { height: 60px; }
@@ -934,7 +935,7 @@ select:focus { outline: none; border: none; }
 @keyframes playbutton { 0% { transform: scale(0.75); opacity: 1; }
   100% { transform: scale(1.3); opacity: 0; } }
 .theme-light .btn.btn-outline { background: transparent; color: #28384c; }
-.theme-light .btn-alt-text { color: #fefeff; }
+.theme-light .btn-alt-text { color: #1b1b1b; }
 .theme-light .btn.btn-outline:after { background: #e5f0ff; }
 .theme-light .play-btn .play:before { background: #fff; }
 .theme-light .play-btn .play:after { border-color: rgba(60, 60, 60, 0.35); }
@@ -1685,14 +1686,58 @@ select:focus { outline: none; border: none; }
 
 /** grid auto setup **/
 
-.theme-light #grid-for-teams {
+.theme-light .grid-for-teams {
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background-color: #35ff44;
   display: grid;
   box-sizing: border-box;
-
-  grid-template-columns: repeat( auto-fit, minmax(auto, 1fr));
-  grid-template-rows: auto;
+  grid-template-columns: repeat( auto-fit, minmax(auto, 30%));
+  grid-template-rows: repeat(auto-fit, minmax(auto,1fr));
   grid-gap: 10px;
+  text-align: center;
+}
 
+.theme-light .grid-for-profile {
+  display: grid |inline-grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px,20px,20px;
+  grid-gap: 5px;
+
+}
+
+.team-grid-photo img{
+  width: 150px;
+  justify-content: center;
+}
+
+/*
+ * ==== hexagon
+ */
+.hexa, .hexa div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: inherit;
+  height: inherit;
+}
+.hexa {
+  width: inherit;
+  height: inherit;
+}
+.hexa div {
+  width: 100%;
+  height: 100%;
+}
+.hexa {
+  transform: rotate(120deg);
+}
+.hex1 {
+  transform: rotate(-60deg);
+}
+.hex2 {
+  transform: rotate(-60deg);
 }
 
 /** END */

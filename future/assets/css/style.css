@@ -1700,6 +1700,7 @@ select:focus { outline: none; border: none; }
 
 .theme-light .grid-for-profile {
   display: inline-grid;
+  border-color: #1b1b1b;
   border-radius: 20px;
   grid:
     'picture'
@@ -1714,25 +1715,17 @@ select:focus { outline: none; border: none; }
 
 .grid-pic img{
   width: 150px;
+  border-radius: 150px;
   justify-content: center;
+  filter:grayscale(1);
 }
 
 .grid-pic { grid-area: picture; }
+.grid-pic img:hover{filter:grayscale(0);}
 .grid-name { grid-area: name; max-width:inherit;}
 .grid-job { grid-area: job; max-width:inherit;}
 
 
-.theme-light .panes .grid-for-profile {
-  display: grid |inline-grid;
-  grid-template-columns: 200px;
-  grid-template-rows: 200px,20px,20px;
-  grid-gap: 5px;
 
-}
-.theme-light .panes .grid-for-profile img {
-  width: 150px;
-  justify-content: center;
-
-}
 
 /** END */

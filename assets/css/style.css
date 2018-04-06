@@ -1684,14 +1684,45 @@ select:focus { outline: none; border: none; }
 
 /** grid auto setup **/
 
-.theme-light #grid-for-teams {
+.theme-light .grid-for-teams {
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
   display: grid;
-  box-sizing: border-box;
-
-  grid-template-columns: repeat( auto-fit, minmax(auto, 1fr));
-  grid-template-rows: auto;
-  grid-gap: 10px;
-
+  grid-template-columns: repeat( auto-fit, minmax(200px,1fr));
+  grid-template-rows: repeat(auto-fit, minmax(auto, 1fr));
+  grid-column-gap: 5%;
+  grid-row-gap: 20px;
+  text-align: center;
 }
+
+.theme-light .grid-for-profile {
+  display: grid | inline-grid;
+  grid:
+    'picture' 150px
+    'name' 15px
+    '.'5px
+    'job' 30px;
+  padding: 1px;
+}
+
+
+
+.grid-pic img{
+  width: 150px;
+  border-radius: 100%;
+  justify-content: center;
+  filter:grayscale(1);
+}
+
+.grid-pic { grid-area: picture; }
+.grid-pic em{position: absolute; margin-left: 140px; margin-top: 120px; background-color: #2c3539; color:#fefeff;
+  display: inline-block; height: 25px; width: 25px; font-size: 16px; text-align: center; border-radius: 50%; line-height: 25px; }
+.grid-pic img:hover{filter:grayscale(0); }
+.grid-pic em:hover{color: #2c3539; background-color:rgba(255,125,0,.3);}
+.grid-name { grid-area: name; max-width:inherit;}
+.grid-job { grid-area: job; max-width:inherit;}
+.grid-social{ grid-area: social; grid-column-start: 1; grid-row-start: 1; color:#ff7d00;}
+
 
 /** END */

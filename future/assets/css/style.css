@@ -1741,6 +1741,10 @@ select:focus { outline: none; border: none; }
 .grid-button-1 {grid-area: btn2;}
 .grid-button-2 {grid-area: btn3;}
 
+.grid-std{
+  display: grid | inline:grid;
+  grid-auto-column: auto;
+        }
 /* The dropdown container */
 .dropdown-pdf {
   float: left;
@@ -1786,4 +1790,6 @@ select:focus { outline: none; border: none; }
 .dropdown-pdf:hover .dropdown-content-pdf {
   display: block;
 }
+
+
 /** END */

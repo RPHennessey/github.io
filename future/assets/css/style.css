@@ -725,8 +725,8 @@ select:focus { outline: none; border: none; }
 
 .theme-light .navbar .navbar-nav .dropdown-menu { background: #1b1b1b; }
 .theme-light .navbar .navbar-nav .dropdown-menu:after { border-bottom-color: #1b1b1b; }
-.theme-light .navbar .navbar-nav .dropdown-menu .dropdown-item { color: #3c3c3c; }
-.theme-light .navbar .navbar-nav .dropdown-menu .dropdown-item:hover, .theme-light .navbar .navbar-nav .dropdown-menu .dropdown-item:focus, .theme-light .navbar .navbar-nav .dropdown-menu .dropdown-item.active { color: #46bdf4; background: transparent; }
+.theme-light .navbar .navbar-nav .dropdown-menu .dropdown-item { color: #fefeff }
+.theme-light .navbar .navbar-nav .dropdown-menu .dropdown-item:hover, .theme-light .navbar .navbar-nav .dropdown-menu .dropdown-item:focus, .theme-light .navbar .navbar-nav .dropdown-menu .dropdown-item.active { color: #fefeff; background: transparent; }
 
 .io-azure .navbar .navbar-nav .dropdown-menu { background: #0a3082; }
 .io-azure .navbar .navbar-nav .dropdown-menu:after { border-bottom-color: #0a3082; }
@@ -741,7 +741,7 @@ select:focus { outline: none; border: none; }
 .site-header .navbar.is-transparent { background: transparent; position: absolute; top: 0; left: 0; width: 100%; }
 .site-header .navbar.is-transparent .navbar-brand .logo-dark { display: none; }
 .site-header .navbar.is-transparent .navbar-brand .logo-light { display: block; }
-.site-header.has-fixed .navbar { position: fixed; width: 100%; z-index: 9; top: 0; background: #020207; border-bottom-color: rgba(0, 0, 0, 0.04); }
+.site-header.has-fixed .navbar { position: fixed; width: 100%; z-index: 9; top: 0; background: #fefeff; border-bottom-color: rgba(0, 0, 0, 0.04); }
 .site-header .is-transparent + .banner .banner-content { padding-top: 50px; }
 .site-header .navbar-brand { margin-top: 20px; margin-bottom: 20px; margin-left: 0; z-index: 6; }
 .site-header .scroll-down { color: #fff; font-size: 10px; display: inline-block; text-transform: uppercase; position: absolute; bottom: 120px; right: 20px; transform: rotate(-90deg); z-index: 5; }
@@ -752,7 +752,7 @@ select:focus { outline: none; border: none; }
   40% { transform: translateX(4px); }
   60% { transform: translateX(6px); } }
 .theme-light .site-header .navbar-nav > li:hover a { color: #46bdf4; }
-.theme-light .site-header .navbar-nav > li > a { color: #1b1b1b; }
+.theme-light .site-header .navbar-nav > li > a { color: #fefeff; }
 .theme-light .site-header .navbar.is-transparent .navbar-brand .logo-dark { display: block; }
 .theme-light .site-header .navbar.is-transparent .navbar-brand .logo-light { display: none; }
 .theme-light .site-header.has-fixed .navbar { background: #1b1b1b; border-bottom-color: rgba(0, 0, 0, 0.04); }
@@ -1727,7 +1727,63 @@ select:focus { outline: none; border: none; }
 .grid-job { grid-area: job; max-width:inherit;}
 .grid-social{ grid-area: social; grid-column-start: 1; grid-row-start: 1; color:#ff7d00;}
 
+.grid-for-buttons{
+  display: grid | inline-grid;
+  grid: 'btn''btn2''btn3';
+}
 
+.dropdown-menu::after .grid-for-buttons{
+  display: grid;
+  grid: 'btn btn2 btn3';
+}
 
+.grid-button {grid-area: btn;}
+.grid-button-1 {grid-area: btn2;}
+.grid-button-2 {grid-area: btn3;}
 
+/* The dropdown container */
+.dropdown-pdf {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown-pdf .dropbtn {
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  color: #fefeff;
+  background-color: rgba(0,0,0,0);
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content-pdf {
+  display: none;
+  position: absolute;
+  background-color: rgba(0,0,150,0);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content-pdf a {
+  float: none;
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content-pdf a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown-pdf:hover .dropdown-content-pdf {
+  display: block;
+}
 /** END */

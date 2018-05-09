@@ -68,7 +68,7 @@ a:hover, a:focus, a:active { color: #de6288; }
 .btn.btn-plane { background: #ff7d00; }
 .btn.btn-simple .fa { color: #ffa93d; }
 .btn.btn-more { color: #ffa93d; }
-.btn.btn-more:hover { color: #f3618e; }
+.btn.btn-more:hover { color: #ff7d00; }
 
 .play-btn .play { background-image: linear-gradient(to right, #ff6d3e 0%, #ffa93d 100%); }
 .play-btn .play > span { background-image: linear-gradient(to right, #ff6d3e 0%, #ffa93d 100%); }
